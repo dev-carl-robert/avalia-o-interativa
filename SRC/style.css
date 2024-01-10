@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass";
+    color: hsl(0, 0%, 100%);
+    overflow-y: hidden;
+}
+
+
+p {
+    font-size: 1.5rem;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.disable {
+    display: none;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 35rem;
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    border-radius: 15px;
+    gap: 3rem;
+    position: relative;
+}
+
+.icon__star img {
+    background-color: hsl(213, 19%, 23%);
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.title h1 {
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.description p {
+    color: hsl(217, 12%, 63%);
+    font-size: 1.3rem;
+    word-break: normal;
+    margin-top: -1.5rem;
+}
+
+.Interactive {
+    display: flex;
+    justify-content: center;
+}
+
+.Interactive ul {
+    width: 25rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.Interactive li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 23%);
+    height: 3rem;
+    width: 3rem;
+    padding: 2rem;
+    border-radius: 5rem;
+}
+
+.Interactive button {
+    color: hsl(217, 12%, 63%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.Interactive li:hover{
+
+    background-color: hsl(25, 97%, 53%);
+}
+.Interactive button:hover{
+    color: white;
+}
+.Interactive li.selected{
+    background-color: hsl(213, 19%, 35%);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    background: none;
+    border: none;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    padding: 1rem;
+    width: 40rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.second__page {
+    display: none;
+}
+.icon-arrow{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.icon-arrow button {
+    font-size: 2.5rem;
+    color: hsl(25, 97%, 60%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.actived {
+    display: block;
+}
+
+.ilustration {
+    display: flex;
+    justify-content: center;
+    margin-top: .6rem;
+    height: 10rem;
+}
+
+.user__rating {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.user__rating p {
+    background-color: hsl(213, 19%, 23%);
+    width: 20rem;
+    padding: .5rem;
+    border-radius: 5rem;
+    color: hsl(25, 97%, 60%);
+}
+
+
+.thank-you__title {
+    text-align: center;
+}
+
+.thank-you__title h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: -.5rem;
+}
+
+.second-page__description {
+    display: flex;
+    justify-content: center;
+}
+
+.second-page__description p {
+    text-align: center;
+    word-break: normal;
+    color: hsl(217, 12%, 63%);
+    margin-top: -2rem;
+    width: 25rem;
+}
